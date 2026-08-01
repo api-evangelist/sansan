@@ -1,8 +1,24 @@
 aid: sansan
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sansan.png
 name: Sansan
-description: 'Sansan is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Sansan, Inc. is a Tokyo-based enterprise SaaS company that builds cloud contact- and
+  business-card management software. Its flagship Sansan platform digitizes and centralizes business
+  cards and customer contact data so sales teams can share information across the organization, surface
+  opportunities, and integrate contact data with external systems. The company also offers the Eight
+  business-card app and Bill One invoice-management product. As of this enrichment pass Sansan does not
+  publish a public developer portal, API reference, or OpenAPI definition on its English or Japanese
+  websites; this profile captures the company identity and probed domain-security posture only.'
 url: https://raw.githubusercontent.com/api-evangelist/sansan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise
+- Contact Management
+- Business Cards
+- CRM
+- Sales
+- SaaS
+- Japan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.sansan.com/en/
+- type: About
+  url: https://www.sansan.com/en/company/
+- type: PrivacyPolicy
+  url: https://www.sansan.com/en/privacy/
+- type: DomainSecurity
+  url: security/sansan-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
