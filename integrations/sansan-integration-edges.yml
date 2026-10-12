@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/sansan/integrations
+- https://n8n.io/integrations/sansan/
+- https://composio.dev/toolkits/sansan
+- https://monid.ai/tools/sansan
+checked:
+- https://composio.dev/toolkits/sansan
+- https://monid.ai/tools/sansan
+- https://n8n.io/integrations/sansan/
+- https://zapier.com/apps/sansan/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
